@@ -1,3 +1,13 @@
+require 'pry'
+
 class Astrology::Cli
 
-end 
+def call
+
+
+end
+
+
+
+
+end
