@@ -1,0 +1,3 @@
+class Astrology::Horoscope 
+
+end 
