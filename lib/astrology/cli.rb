@@ -17,7 +17,8 @@ class Astrology::Cli
     input = nil
     while input != "exit"
 
-      puts "To see your horoscope, enter the number 1-12 that corresponds with your astrological sign, type 'list' to see the list of signs or type 'exit'"
+      puts "To see your horoscope, enter the number 1-12 that corresponds with your astrological sign."
+      puts "Alternatively, type 'list' to see the list of signs or type 'exit'"
       input = gets.strip.downcase
       if input.to_i > 0
         horoscope = Astrology::Horoscope.all[input.to_i - 1]
