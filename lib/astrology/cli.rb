@@ -1,7 +1,7 @@
 class Astrology::Cli
 
   def call
-    Astrology::Scraper.scrape_kcstar
+    @headline = Astrology::Scraper.scrape_kcstar
     list_horoscopes
     menu
     goodbye
