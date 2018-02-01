@@ -2,10 +2,11 @@ require 'pry'
 
 class Astrology::Cli
 
-def call
-
-
-end
+  def call
+    list_horoscope_signs
+    menu
+    goodbye
+  end
 
 
 

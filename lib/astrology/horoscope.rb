@@ -8,5 +8,7 @@ class Astrology::Horoscope
     @@all
   end
 
+  def self.scrape_kcstar
+
 
 end
