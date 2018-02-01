@@ -8,10 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Astrology::VERSION
   spec.authors       = ["'Allison Tzadok'"]
   spec.email         = ["'allisontzadok@gmail.com'"]
-
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{An app that displays your daily horoscope based on your selection.}
+  spec.description   = %q{Input your horoscope sign and the app will output your daily horoscope summary, along with your lucky number, financial outlook and love compatibility}
+  spec.homepage      = "https://github.com/AlliTzadok/astrology-gem-cli/"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

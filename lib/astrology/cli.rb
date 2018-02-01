@@ -1,5 +1,3 @@
-require 'pry'
-
 class Astrology::Cli
 
   def call
@@ -16,7 +14,6 @@ class Astrology::Cli
   def menu
 
   end
-
 
 
 
