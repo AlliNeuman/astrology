@@ -8,7 +8,9 @@ class Astrology::Cli
   end
 
   def list_horoscopes
-
+    Astrology::Horoscope.all.each.with_index(1) do |horoscope, i|
+      puts "#{i}. #{horoscope.name}"
+    end
   end
 
   def menu
