@@ -1,5 +1,8 @@
-require "astrology/version"
+require 'open-uri'
+require 'nokogiri'
+require 'pry'
 
-module Astrology
-  # Your code goes here...
-end
+require_relative "astrology/version"
+require_relative "astrology/cli"
+require_relative "astrology/horoscope"
+require_relative "astrology/scraper"
