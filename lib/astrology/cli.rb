@@ -2,6 +2,7 @@ class Astrology::Cli
 
   def call
     @headline = Astrology::Scraper.scrape_kcstar
+    Astrology::Scraper.scraper
     list_horoscopes
     menu
     goodbye
@@ -40,6 +41,25 @@ class Astrology::Cli
 
   def goodbye
     puts "check back again for your daily horoscope!"
+  end
+
+  def paragraph_summary
+
+
+    # paragraph = @summary
+    # words = paragraph.split(" ")
+    # current_line = nil
+    # correct_width = words.map do |word|
+    #   letter_count = word.split("").count
+    #   current_line += letter_count + 1 #To count the space after
+    #   if current_line < 50
+    #     word
+    #   else
+    #     current_line = 0
+    #     "\n#{word}"
+    #   end
+    # end
+    # correct_width.join(" ")
   end
 
 end

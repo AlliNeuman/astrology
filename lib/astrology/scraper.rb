@@ -1,3 +1,4 @@
+require "pry"
 class Astrology::Scraper
 
   def self.scrape_kcstar
@@ -16,5 +17,6 @@ class Astrology::Scraper
       end
         headline = doc.search("div.teaser h4.title").text.gsub("\n", "")
     end
+
 
 end
